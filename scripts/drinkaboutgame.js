@@ -1,3 +1,3 @@
-function drinkingage() {
-return -1;
+function drinkingage(actualAge) {
+    return actualAge - 1;
 }
