@@ -1,3 +1,7 @@
 function drinkingage(actualAge) {
-    return actualAge - 1;
+    if(typeof(actualAge) == "number"){
+return actualAge  - 1;
+} else {
+return "Error!";
+}
 }
